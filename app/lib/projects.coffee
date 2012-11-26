@@ -47,6 +47,11 @@ module.exports=[
     image:'https://www.zooniverse.org/assets/projects/ancientlives/background.jpg'
   
   ,
+    name: "Seti Live"
+    url : "http://setilive.org/"
+    description: "We're searching for interesting signals coming from the Kepler Field. Will we find life on another planet?"
+    image:'https://www.zooniverse.org/assets/projects/setilive/card-b14d3314fdf84e06d79269f1d2a11403.jpg' 
+  ,
     name: "Seafloor explorer"
     url : "http://www.seafloorexplorer.org/"
     description: "The HabCam team and the Woods Hole Oceanographic Institution need your help!

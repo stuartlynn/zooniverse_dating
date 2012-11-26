@@ -64,4 +64,56 @@ module.exports=
           text:"Nonexistent"
           score:"Moon Zoo"
       ]
+    ,
+      text:"What would you most like to see sitting across from you at romantic candlelit dinner for two?"
+      answers:[
+          text:"Sexy Seastar"
+          score: 'Seafloor explorer'
+        ,
+          text:"Beautiful Bat"
+          score: "Bat Detective"
+        ,
+          text:"Cute Coronal Mass Ejection"
+          score:"Solar stormwatch"
+      ]
+    ,
+      text:"What is your favorite dance?"
+      answers:[
+          text:"The Twist"
+          score: 'Cyclone Center'
+        ,
+          text:"Moon Walk"
+          score: "Moon Zoo"
+        ,
+          text:"The Swim"
+          score:"Seafloor explorer"
+      ]
+    ,
+      text:"How do you typically greet people?"
+      answers:[
+          text:"Ahoy!"
+          score: 'Cyclone Center'
+        ,
+          text:"Take me to your leader!"
+          score: "Seti Live"
+        ,
+          text:"Squeak, squeak, squeak!"
+          score:"Bat Detective"
+        , 
+          text:"Ooopa!"
+          score:"Ancient Lives"
+      ]
+    ,
+      text:"Which physical features do you find most alluring?"
+      answers:[
+          text:"Glossy coat and luxurious mane"
+          score: 'Snapshot Serengeti'
+        ,
+          text:"Green skin and deep black, pupiless eyes"
+          score: "Seti Live"
+        ,
+          text:"Spindly spiral arms"
+          score:"Galaxy Zoo"
+      ]
+
   ]
