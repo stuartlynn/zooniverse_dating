@@ -1,0 +1,46 @@
+@import './mixin'
+
+body 
+  text-align: center
+  background-color: red
+  background-image: url("red-background.jpg")
+  background-repeat: repeat-x
+  background-attachment:fixed
+  background-position:center
+
+  .questionController
+    color: white
+    font-family: "helvetica nuve"
+    h1 
+      font-size:90px
+    ul
+      list-style: none
+      li
+        font-size: 40px
+        cursor: pointer
+        margin-bottom: 20px
+    .button
+      display: inline-block
+      padding: 0 20px
+      // box-shadow(0px, 1px, 0px, #f2f2f2)
+      vbg-gradient(#14ACD1, #0B7994)
+      border-radius 2px
+      border: 1px solid #095E73
+      color: #ffffff
+      cursor: pointer
+      font-size: 13px
+      line-height: 25px
+      text-align: center
+      &:hover
+        background: #0a7590
+      &.larger
+        font-size: 1.1em
+        line-height: 2.5em
+
+    img
+      width: 500px
+
+    .projectName
+      a
+        font-size: 90px
+        color: white
