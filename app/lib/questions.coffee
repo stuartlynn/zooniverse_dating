@@ -1,44 +1,63 @@
 module.exports=
   [
-      text: "Whats cuter a whale or a lion?"
+      text: "Whats cuter?"
       answers:[
-          text: 'whale'
-          score: 'whaleFM'
+          text: 'A whale'
+          score: 'Whale FM'
         ,
-          text: "lion"
+          text: "A lion"
           score: 'Snapshot Serengeti'
+        ,
+          text: "A bat"
+          score: 'Bat Detective'
+        ,
+          text: "A Little green man"
+          score: 'SETI Live'
       ]
     ,
-      text: "Do you find yourself gazing at the sky at night?"
+      text: "When you look at the stars, what do you think?"
       answers:[
-          text: 'no'
+          text: 'I wonder how many stars are out there?'
+          score: 'The Milky Way Project'
         ,
-          text: "yes"
+          text: "I wonder if anyone is looking back at me?"
+          score: 'SETI Live'
+        ,
+          text: "I wonder how big the Universe is?"
           score: 'Galaxy Zoo'
-      ]
-    ,
-      text: "What does port mean to you?"
-      answers:[
-          text: 'Where a ship sleeps'
+       ,
+          text: "I wonder how this sextant works?"
           score: 'Old Weather'
-        ,
-          text: "A tasty drink"
-
       ]
     ,
       text: "How many atmospheres do you like to be at?"
       answers:[
           text: '100'
-          score: 'whaleFM'
+          score: 'Whale FM'
         ,
           text: '10'
-          score: 'Seafloor explorer'
+          score: 'Seafloor Explorer'
         ,
           text: "1"
           score: 'Snapshot Serengeti'
         ,
           text:"0"
           score: 'Galaxy Zoo'
+      ]
+    ,
+      text: "What did you like best at school?"
+      answers:[
+          text: 'Maths'
+          score: 'Planet Hunters'
+        ,
+          text: 'Art'
+          score: 'The Milky Way Project'
+        ,
+          text: 'History'
+          score: 'Old Weather'
+        ,
+          text: 'English'
+          score: 'Ancient Lives'
       ]
     ,
       text:"What do you like to snack on?"
@@ -51,6 +70,9 @@ module.exports=
         ,
           text:"A drop of blood"
           score:"Bat Detective"
+        ,
+          text:"Krill"
+          score:"Whale FM"
       ]
     ,
       text:"How do you like your weather?"
@@ -61,8 +83,11 @@ module.exports=
           text:"Changeable"
           score: "Old Weather"
         ,
-          text:"Nonexistent"
+          text:"Non-existent"
           score:"Moon Zoo"
+        ,
+          text:"Alien"
+          score:"Planet Hunters"
       ]
     ,
       text:"What would you most like to see sitting across from you at romantic candlelit dinner for two?"
@@ -75,6 +100,9 @@ module.exports=
         ,
           text:"Cute Coronal Mass Ejection"
           score:"Solar stormwatch"
+        ,
+          text:"Naughty Nebula"
+          score:"Milky Way Project"
       ]
     ,
       text:"What is your favorite dance?"
@@ -82,11 +110,14 @@ module.exports=
           text:"The Twist"
           score: 'Cyclone Center'
         ,
-          text:"Moon Walk"
+          text:"The Moon Walk"
           score: "Moon Zoo"
         ,
           text:"The Swim"
           score:"Seafloor explorer"
+        ,
+          text:"Thriller"
+          score:"Bat Detective"
       ]
     ,
       text:"How do you typically greet people?"
@@ -95,7 +126,7 @@ module.exports=
           score: 'Cyclone Center'
         ,
           text:"Take me to your leader!"
-          score: "Seti Live"
+          score: "SETI Live"
         ,
           text:"Squeak, squeak, squeak!"
           score:"Bat Detective"
@@ -109,11 +140,14 @@ module.exports=
           text:"Glossy coat and luxurious mane"
           score: 'Snapshot Serengeti'
         ,
-          text:"Green skin and deep black, pupiless eyes"
-          score: "Seti Live"
+          text:"Green skin and deep black, pupil-less eyes"
+          score: "SETI Live"
         ,
           text:"Spindly spiral arms"
           score:"Galaxy Zoo"
+        ,
+          text:"Presence of polycyclic aromatic hydrocarbons at very low temperatures"
+          score:"Milky Way Project"
       ]
 
   ]
