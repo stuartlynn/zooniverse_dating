@@ -1,5 +1,5 @@
 <% console.log @%>
-<h1> <%=@question.text%> </h1>
+<h1 class='question'> <%=@question.text%> </h1>
 <ul> 
   <% for answer,index in @question.answers :%>
     <li class='answer', data-id=<%=index%>><%=answer.text%></li>

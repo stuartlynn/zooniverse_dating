@@ -3,7 +3,7 @@ Spine = require('spine')
 class Quiz extends Spine.Model
   @configure 'Quiz', 'questions', 'scores'
 
-  numberOfQuestions: 3
+  numberOfQuestions: 5
 
   constructor:->
     super 
@@ -40,11 +40,13 @@ class Quiz extends Spine.Model
   result:=>
     max = 0
     maxProject =""
+    console.log "Scores are ", @scores
     for project, value of @scores 
       if value > max 
         max = value 
         maxProject=project
     maxProject
+    console.log maxProject
     @projectForName maxProject
 
   projectForName:(name)=>

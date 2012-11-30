@@ -1,7 +1,7 @@
-<h1>You should try </h1>
-<h2 class='projectName'><a href='<%=@project.url%>'> <%=@project.name%></a></h2>
+<img class='resultImage' src=<%=@project.image%>></img>
 
-<p><%=@project.description%></p>
-<img src=<%=@project.image%>></img>
-
-<h2> You guys would be wonderful together</h2>
+<div class='details'>
+  <h1 class='projectName'>Perfect for <%=@project.name%>!</h1>
+  <p><%=@project.description%></p>
+  <a href='<%=@project.url%>'> <button class='button'>Visit the project </button></a>
+</div>

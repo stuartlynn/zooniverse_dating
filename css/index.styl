@@ -1,45 +1,73 @@
 @import './mixin'
 
 body 
-  text-align: center
-  background-color: red
-  background-image: url("red-background.jpg")
-  background-repeat: repeat-x
-  background-attachment:fixed
-  background-position:center
-
+  background: #1f003e
+  width: 840px
+  margin: 0px auto
+  padding: 90px 0px 90px 0px
+  text-align : center 
+  .heart 
+    margin-bottom: 90px 
   .questionController
     color: white
     font-family: "helvetica nuve"
+    
+
     h1 
-      font-size:90px
+      font-family: georgia
+      font-style: italic
+      font-size: 35px
+      font-weight: 200
+      color: #fefefe
+      margin-bottom: 5px
+      &.question
+        margin-bottom: 90px
+    h2
+      font-family: helvetica neue
+      font-weight: 200
+      font-size: 16px
+      color: #fefefe
+      margin-top: 0px
+      margin-bottom: 40px
     ul
       list-style: none
+      margin: 0px
+      padding: 0px
       li
-        font-size: 40px
         cursor: pointer
         margin-bottom: 20px
+        font-family: helvetica neue
+        font-style: bold
+        font-size: 20px
+        color: #fefefe
     .button
-      display: inline-block
-      padding: 0 20px
-      // box-shadow(0px, 1px, 0px, #f2f2f2)
-      vbg-gradient(#14ACD1, #0B7994)
-      border-radius 2px
-      border: 1px solid #095E73
-      color: #ffffff
+      background: #ee4622
+      font-family: helvetica neue
+      font-style: bold
+      font-size: 20px
+      color: white
+      text-shadow: 0px 1px 2px #b42000
+     
+      border-radius: 3px
+      box-shadow: inset 0px 1px 0px rgba(255,255,255,.5), 0px 3px 6px black
+      border: none 
+      border-box()
+      padding: 16px 40px 16px 40px
       cursor: pointer
-      font-size: 13px
-      line-height: 25px
-      text-align: center
-      &:hover
-        background: #0a7590
-      &.larger
-        font-size: 1.1em
-        line-height: 2.5em
-
     img
       width: 500px
-
+    img.resultImage 
+      width: 200px
+      height: 200px
+      display:inline-block
+      vertical-align: top
+      margin-right: 40px
+    .details
+      display:inline-block
+      vertical-align: top
+      text-align: left
+      h1
+        margin-top:0px
     .projectName
       a
         font-size: 90px
