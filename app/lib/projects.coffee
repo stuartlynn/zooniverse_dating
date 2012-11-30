@@ -5,7 +5,7 @@ module.exports=[
     image:'avatars/galaxyzoo.jpg'
   ,
     name: "Whale FM"
-    url : "http://www.whaleFM.org"
+    url : "http://whale.fm/"
     description: "You can help marine researchers understand what whales are saying
 "
     image:'avatars/whalefm.jpg'

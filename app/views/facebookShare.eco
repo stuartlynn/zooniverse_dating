@@ -1,0 +1,10 @@
+
+<a target="_blank" href="https://www.facebook.com/dialog/feed?
+    app_id=187399074696127&
+    link=<%=encodeURI(@returnUrl || "" )%>&
+    picture=<%= encodeURI(@pictureUrl || "") %>&
+    name=<%=encodeURI(@name || "" )%>&
+    caption=<%=encodeURI(@caption || "")%>&
+    description=<%=encodeURI(@caption || "")%>&
+    message=<%= encodeURI(@caption || "")%>&
+    redirect_uri=http://dating.zooniverse.org"><i class="icon-facebook-rect" style="margin-left: 3px"></i></a>
