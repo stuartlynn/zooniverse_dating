@@ -1,6 +1,6 @@
 module.exports=[
     name: "Galaxy Zoo"
-    url : "galaxyzoo.org"
+    url : "http://galaxyzoo.org"
     description: "NASA's Hubble Space Telescope archive provides hundreds of thousands of galaxy images."
     image:'avatars/galaxyzoo.jpg'
   ,
