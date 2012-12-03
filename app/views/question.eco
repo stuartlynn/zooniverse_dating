@@ -1,4 +1,4 @@
-<% console.log @%>
+
 <h1 class='question'> <%=@question.text%> </h1>
 <ul> 
   <% for answer,index in @question.answers :%>

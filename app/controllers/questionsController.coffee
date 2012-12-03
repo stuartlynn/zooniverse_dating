@@ -28,8 +28,6 @@ class QuestionsController extends Spine.Controller
     @html require('views/intro')
 
   renderResult:=>
-    console.log "quiz is #{@quiz.result()}"
-    console.log require('lib/projects')
     @html require('views/result')
       project: @quiz.result()
 

@@ -55,7 +55,7 @@ module.exports=[
     name: "The Milky Way Project"
     url : "http://www.milkywayproject.org/"
     description: "We're asking you to help us find and draw circles on infrared image data from the Spitzer Space Telescope."
-    image:'avatars/mwp.jpg' 
+    image:'avatars/mpw.jpg' 
   , 
     name: "Seafloor explorer"
     url : "http://www.seafloorexplorer.org/"

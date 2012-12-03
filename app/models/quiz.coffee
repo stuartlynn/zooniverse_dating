@@ -41,19 +41,18 @@ class Quiz extends Spine.Model
   result:=>
     max = 0
     maxProject =""
-    console.log "Scores are ", @scores
+
     for project, value of @scores 
       if value > max 
         max = value 
         maxProject=project
     maxProject
-    console.log maxProject
+
     @projectForName maxProject
 
   projectForName:(name)=>
 
     project = (project for project in @projects when project.name == name)[0]
-    console.log project
     project
 
 
