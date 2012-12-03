@@ -47,7 +47,7 @@ module.exports=[
     image:'avatars/ancientlives.jpg'
   
   ,
-    name: "Seti Live"
+    name: "SETI Live"
     url : "http://setilive.org/"
     description: "We're searching for interesting signals coming from the Kepler Field. Will we find life on another planet?"
     image:'avatars/seti.jpg' 
