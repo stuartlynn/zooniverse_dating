@@ -69,10 +69,6 @@ module.exports=[
     description: "Help scientists characterise bat calls recorded by citizen scientists.
 "
     image:'avatars/bats.jpg'
-  ,
-    name: "Snapshot Serengeti"
-    url : "http://www.snapshotserengeti.org/beta/"
-    description: "blah blah blah"
-    image:'avatars/serengeti.jpg'
+
 
 ]
