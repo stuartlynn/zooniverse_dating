@@ -4,7 +4,7 @@
     link=<%=encodeURI(@returnUrl || "" )%>&
     picture=<%= encodeURI(@pictureUrl || "") %>&
     name=<%=encodeURI(@name || "" )%>&
-    caption=<%=encodeURI(@caption || "")%>&
+    caption=&
     description=<%=encodeURI(@caption || "")%>&
     message=<%= encodeURI(@caption || "")%>&
     redirect_uri=http://dating.zooniverse.org"><i class="icon-facebook-rect" style="margin-left: 3px"></i></a>

@@ -18,7 +18,8 @@ class Quiz extends Spine.Model
     if @quizDone()
       return false
     else
-      return @currentQuestion = @unaskedQuestions()[Math.random()*@unaskedQuestions.length]
+      random = Math.floor(Math.random()*@unaskedQuestions().length)
+      return @currentQuestion = @unaskedQuestions()[random]
 
   quizDone:=>
     @numberOfQuestions == @numnberOfAnswers
@@ -50,8 +51,10 @@ class Quiz extends Spine.Model
     @projectForName maxProject
 
   projectForName:(name)=>
-    project = (project for project in @projects when project.name == name)[0]
 
+    project = (project for project in @projects when project.name == name)[0]
+    console.log project
+    project
 
 
 module.exports = Quiz

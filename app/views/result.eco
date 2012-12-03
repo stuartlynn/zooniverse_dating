@@ -6,7 +6,7 @@
   <a href='<%=@project.url%>'> <button class='button'>Visit the project</button></a>
   <%- require('views/twitterShare')({text:"My perfect Zooniverse match is #{@project.name} (#{@project.url}). Find yours at http://dating.zooniverse.org"}) %>
 
-  <%- require('views/facebookShare')({caption:"My perfect Zooniverse match is #{@project.name} (#{@project.url}). Find yours at http://dating.zooniverse.org", returnUrl: "http://dating.zooniverse.org", pictureUrl:@project.image, name:"Zooniverse dating"}) %>
+  <%- require('views/facebookShare')({caption:"My perfect Zooniverse match is #{@project.name} (#{@project.url}). Find yours at http://dating.zooniverse.org", returnUrl: "http://dating.zooniverse.org", pictureUrl:"#{window.location.href}#{@project.image}", name:"Zooniverse dating"}) %>
 
   
 </div>
