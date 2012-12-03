@@ -5,8 +5,8 @@ module.exports=
           text: 'A whale'
           score: 'Whale FM'
         ,
-          text: "A lion"
-          score: 'Snapshot Serengeti'
+          text: "An irregular galaxy"
+          score: 'Galaxy Zoo'
         ,
           text: "A bat"
           score: 'Bat Detective'
@@ -39,7 +39,7 @@ module.exports=
           score: 'Seafloor Explorer'
         ,
           text: "1"
-          score: 'Snapshot Serengeti'
+          score: 'Bat Detective'
         ,
           text:"0"
           score: 'Galaxy Zoo'
@@ -65,8 +65,8 @@ module.exports=
           text:"Scallops"
           score: 'Seafloor explorer'
         ,
-          text:"Steak"
-          score: "Snapshot Serengeti"
+          text:"Freeze Dried Food"
+          score: "Moon Zoo"
         ,
           text:"A drop of blood"
           score:"Bat Detective"
@@ -137,8 +137,8 @@ module.exports=
     ,
       text:"Which physical features do you find most alluring?"
       answers:[
-          text:"Glossy coat and luxurious mane"
-          score: 'Snapshot Serengeti'
+          text:"A well formed dorsal fin"
+          score: 'Whale FM'
         ,
           text:"Green skin and deep black, pupil-less eyes"
           score: "SETI Live"
