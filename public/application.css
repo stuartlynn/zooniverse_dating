@@ -1,52 +1,92 @@
 body {
+  background: #1f003e;
+  width: 840px;
+  margin: 0px auto;
+  padding: 90px 0px 90px 0px;
   text-align: center;
-  background-color: #f00;
-  background-image: url("red-background.jpg");
-  background-repeat: repeat-x;
-  background-attachment: fixed;
-  background-position: center;
+}
+body .heart {
+  margin-bottom: 90px;
 }
 body .questionController {
   color: #fff;
   font-family: "helvetica nuve";
 }
 body .questionController h1 {
-  font-size: 90px;
+  font-family: georgia;
+  font-style: italic;
+  font-size: 35px;
+  font-weight: 200;
+  color: #fefefe;
+  margin-bottom: 5px;
+}
+body .questionController h1.question {
+  margin-bottom: 90px;
+}
+body .questionController h2 {
+  font-family: helvetica neue;
+  font-weight: 200;
+  font-size: 16px;
+  color: #fefefe;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 body .questionController ul {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 body .questionController ul li {
-  font-size: 40px;
   cursor: pointer;
   margin-bottom: 20px;
+  font-family: helvetica neue;
+  font-style: bold;
+  font-size: 20px;
+  color: #fefefe;
 }
 body .questionController .button {
-  display: inline-block;
-  padding: 0 20px;
-  background: #14acd1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#14acd1), to(#0b7994));
-  background: -moz-linear-gradient(top, #14acd1, #0b7994);
-  background: linear-gradient(top, #14acd1, #0b7994);
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  border: 1px solid #095e73;
+  background: #ee4622;
+  font-family: helvetica neue;
+  font-style: bold;
+  font-size: 20px;
   color: #fff;
+  text-shadow: 0px 1px 2px #b42000;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: inset 0px 1px 0px rgba(255,255,255,0.50), 0px 3px 6px #000;
+  -webkit-box-shadow: inset 0px 1px 0px rgba(255,255,255,0.50), 0px 3px 6px #000;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,0.50), 0px 3px 6px #000;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 16px 40px 16px 40px;
   cursor: pointer;
-  font-size: 13px;
-  line-height: 25px;
-  text-align: center;
-}
-body .questionController .button:hover {
-  background: #0a7590;
-}
-body .questionController .button.larger {
-  font-size: 1.1em;
-  line-height: 2.5em;
 }
 body .questionController img {
   width: 500px;
+}
+body .questionController img.resultImage {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+}
+body .questionController .details {
+  display: inline-block;
+  vertical-align: top;
+  width: 360px;
+  text-align: left;
+}
+body .questionController .details .icon-twitter-bird,
+body .questionController .details .icon-facebook-rect {
+  font-size: 30px;
+  color: #ee4622;
+}
+body .questionController .details h1 {
+  margin-top: 0px;
 }
 body .questionController .projectName a {
   font-size: 90px;
