@@ -69,6 +69,55 @@ module.exports=[
     description: "Help scientists characterise bat calls recorded by citizen scientists.
 "
     image:'avatars/bats.jpg'
+    
+  ,
+    name: "Plankton Portal"
+    url : "http://www.planktonportal.org/"
+    description: "Help scientists measure the health of the oceans.
+"
+    image:'avatars/plankton.jpg' 
+    
+  ,
+    name: "Cell Slider"
+    url : "http://www.cellslider.net/"
+    description: "Lend a hand in the fight against cancer.
+"
+    image:'avatars/main.jpg' 
+    
+  ,
+    name: "Spacewarps"
+    url : "http://www.spacewarps.org/"
+    description: "Help scientists find massive galaxies that bend space and time.
+"
+    image:'avatars/spacewarps.jpg' 
+    
+  ,
+    name: "Planet Four"
+    url : "http://www.planetfour.org/"
+    description: "Classify features on the surface of Mars.
+"
+    image:'avatars/mars.jpg'  
+    
+  ,
+    name: "Snapshot Serengeti"
+    url : "http://www.snapshotserengeti.org/"
+    description: "Identify the majestic animals in images from the Serengeti National Park.
+"
+    image:'avatars/serengeti.jpg'  
+    
+  ,
+    name: "Notes from Nature"
+    url : "http://www.notesfromnature.org/"
+    description: "Transcribe specemin labels of birds, bugs, plants and fungi.
+"
+    image:'avatars/NfN.jpg' 
+    
+  ,
+    name: "Worm Watch Lab"
+    url : "http://www.wormwatchlab.org/"
+    description: "Help scientists better understand how genes affect behaviour.
+"
+    image:'avatars/wormwatchlab.jpg'    
 
 
 ]
